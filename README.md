@@ -11,3 +11,5 @@ A sample is saved in [data-schema.yml](data-schema.yml)
 ## Data storage layer
 
 The data storage layer holds the data and responds to clients through it's schema. The data storage layer is responsible for accepting mutations and responding with structured JSON. The data storage layer can be queried by any client, not just the data management system.
+
+A sample is saved in [ui-config.yml](ui-config.yml)
