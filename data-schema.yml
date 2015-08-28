@@ -6,6 +6,7 @@ message:
       type: String
     user:
       type: Relation
+      to: user
       name: author
       limit: 1
 user:
@@ -16,5 +17,6 @@ user:
       type: String
     posts:
       type: Relation
+      to: message
       name: author
       limit: -1
