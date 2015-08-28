@@ -1,0 +1,7 @@
+message:
+  fields:
+    - title
+    - content
+    - user:
+      type: relation
+      keys: firstName
