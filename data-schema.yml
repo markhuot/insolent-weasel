@@ -1,0 +1,20 @@
+message:
+  fields:
+    title:
+      type: String
+    content:
+      type: String
+    user:
+      type: Relation
+      name: author
+      limit: 1
+user:
+  fields:
+    firstName:
+      type: String
+    lastName:
+      type: String
+    posts:
+      type: Relation
+      name: author
+      limit: -1
